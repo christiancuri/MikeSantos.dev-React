@@ -1,6 +1,18 @@
 import React from "react";
-// import { Nav } from "@/components";
-
+import { Nav, Header, Footer } from "@/components";
+import { About, Projects, SignUp, Contact } from "./components";
 export default function() {
-  return <>Hello</>;
+  return (
+    <>
+      <Nav />
+      <Header />
+
+      <About />
+      <Projects />
+      <SignUp />
+      <Contact />
+
+      <Footer />
+    </>
+  );
 }

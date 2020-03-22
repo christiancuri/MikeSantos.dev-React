@@ -1,13 +1,17 @@
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgb(24, 26, 27);
+  border-bottom-color: initial;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  /* color: #64a19d;
+  border: 1px solid #64a19d; */
+  color: #e4e4e4;
+  border: 1.4px solid #e4e4e4;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -15,7 +19,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: rgba(255, 255, 255, 0.5) !important;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -30,6 +34,61 @@
 #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+body {
+  color: rgb(218, 215, 210) !important;
+  background-color: rgb(21, 22, 23) !important;
+}
+
+a {
+  background-image: initial;
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+hr {
+  border-top-color: rgb(62, 102, 100) !important;
+  border-right-color: rgb(62, 102, 100) !important;
+  border-bottom-color: rgb(62, 102, 100) !important;
+  border-left-color: rgb(62, 102, 100) !important;
+}
+
+html {
+  background-color: #181a1b !important;
+}
+
+.projects-section {
+  background-color: rgb(26, 28, 29) !important;
+}
+
+.text-black-50 {
+  color: rgba(232, 230, 227, 0.5) !important;
+}
+
+.bg-black {
+  background-color: rgb(21, 22, 23) !important;
+}
+
+.card {
+  background-color: rgb(24, 26, 27);
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  border-bottom-color: rgb(62, 102, 100) !important;
+}
+
+.form-control {
+  color: rgb(202, 198, 190) !important;
+  background-color: rgb(24, 26, 27) !important;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(54, 90, 87) !important;
 }
 
 @media (min-width: 992px) {
@@ -91,7 +150,7 @@
       rgba(22, 22, 22, 0.7) 75%,
       #161616 100%
     ),
-    url("assets/img/bg-masthead.jpg");
+    url("/assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -107,7 +166,7 @@
     rgba(255, 255, 255, 0.9),
     rgba(255, 255, 255, 0)
   );
-  background-clip: text;
+  /* background-clip: text; */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -169,12 +228,12 @@
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(
-    to bottom,
-    #161616 0%,
-    rgba(22, 22, 22, 0.9) 75%,
-    rgba(22, 22, 22, 0.8) 100%
+  background-image: linear-gradient(
+    rgb(21, 22, 23) 0%,
+    rgba(21, 22, 23, 0.9) 75%,
+    rgba(21, 22, 23, 0.8) 100%
   );
+  background-color: initial;
 }
 
 .about-section p {
@@ -220,7 +279,7 @@
       rgba(22, 22, 22, 0.5) 75%,
       #161616 100%
     ),
-    url("assets/img/bg-signup.jpg");
+    url("/assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
